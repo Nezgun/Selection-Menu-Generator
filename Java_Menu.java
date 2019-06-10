@@ -77,31 +77,3 @@ public class Java_Menu
     }
 
 } //end class
-
-/*
-how to do this?
-
-boolen running = true;
-
-while(running) {
-    System.out.println("Option x: <your option here>");
-    System.out.println("Option y: Quit");
-
-    //User Input
-    System.out.println("Please choose an option 1-7"); 
-    Scanner input = new Scanner(System.in);
-    int option = input.nextInt();
-    System.out.println("Option " + Integer.toString(option) + " has been selected...");
-
-    switch(option) {
-        case x:
-        {
-            //Insert your code here
-            break;
-        }
-        case y:
-        {
-            running = false;
-            break;
-        }
-*/
